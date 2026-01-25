@@ -1,4 +1,4 @@
-<h1>👋 &nbsp;E aí, sou Lorran Hippolyte, Desenvolvedor Front-end!</h1>
+<h1>👋 &nbsp;Lorran Hippolyte - Desenvolvedor Front-end (com visão Full Stack)</h1>
 <p align="center">
 <a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-Meu%20LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
 <a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-Meu%20Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
@@ -44,7 +44,23 @@ Se quiser se conectar, colaborar ou tiver alguma dúvida, fique à vontade para 
 
 ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
+![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase)
+![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=convex)
 ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+
+<h3>☁️ &nbsp;Cloud & Serviços:</h3>
+
+![Vercel](https://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-333333?style=flat&logo=cloudflare)
+![Clerk](https://img.shields.io/badge/-Clerk-333333?style=flat&logo=clerk)
+
+<h3>🔧 &nbsp;Ferramentas de Desenvolvimento:</h3>
+
+![VS Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![Cursor](https://img.shields.io/badge/-Cursor-333333?style=flat&logo=cursor)
+![GitHub Copilot](https://img.shields.io/badge/-GitHub%20Copilot-333333?style=flat&logo=github)
+![Claude](https://img.shields.io/badge/-Claude-333333?style=flat&logo=anthropic)
+![Replit](https://img.shields.io/badge/-Replit-333333?style=flat&logo=replit)
 
 <h2>🚀 &nbsp;Minhas Estatísticas no GitHub</h2>
 
