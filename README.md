@@ -1,33 +1,33 @@
-<h1>👋 &nbsp;Hey, I'm Lorran Hippolyte, a passionate Front-end Developer!</h1>
+<h1>👋 &nbsp;E aí, sou Lorran Hippolyte, Desenvolvedor Front-end!</h1>
 <p align="center">
-<a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-My%20LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-My%20Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.youtube.com/@lorranhippolyte"><img src="https://img.shields.io/badge/-My%20YouTube-D62422?style=flat-square&labelColor=D62422&logo=youtube&logoColor=white"/></a>
-<a href="https://www.lorranhippolyte.com/"><img src="https://img.shields.io/badge/-My%20Portfolio-000000?style=flat-square&logo=react&logoColor=white"/></a>
-<a href="mailto:lhippolyte214@gmail.com"><img src="https://img.shields.io/badge/-Send%20Me%20a%20Message-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-Meu%20LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-Meu%20Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
+<a href="https://www.youtube.com/@lorranhippolyte"><img src="https://img.shields.io/badge/-Meu%20YouTube-D62422?style=flat-square&labelColor=D62422&logo=youtube&logoColor=white"/></a>
+<a href="https://www.lorranhippolyte.com/"><img src="https://img.shields.io/badge/-Meu%20Portfólio-000000?style=flat-square&logo=react&logoColor=white"/></a>
+<a href="mailto:lhippolyte214@gmail.com"><img src="https://img.shields.io/badge/-Me%20Envie%20uma%20Mensagem-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
 </p>
 
-<h2> 👨🏻‍💻 &nbsp;About Me </h2>
+<h2> 👨🏻‍💻 &nbsp;Sobre Mim </h2>
 
 <!-- TODO: Adicionar sua história pessoal aqui -->
-I'm a Front-end Developer with Full Stack capabilities, passionate about building modern, scalable, and user-friendly web applications. I specialize in creating seamless user experiences using cutting-edge technologies like React, Next.js, and TypeScript.
+Sou Desenvolvedor Front-end com habilidades Full Stack, apaixonado por criar aplicações web modernas, escaláveis e focadas na experiência do usuário. Me especializei em desenvolver interfaces fluidas utilizando tecnologias de ponta como React, Next.js e TypeScript.
 
-With a strong foundation in front-end development and complementary back-end skills, I'm able to deliver complete solutions that combine beautiful interfaces with solid architecture.
+Com uma base sólida em front-end e habilidades complementares em back-end, consigo entregar soluções completas que combinam interfaces bonitas com arquitetura robusta.
 
-<h2> 🎓 &nbsp;Lifelong Learner </h2>
+<h2> 🎓 &nbsp;Aprendizado Contínuo </h2>
 
 <!-- TODO: Adicionar sua jornada de aprendizado aqui -->
-I'm constantly learning and improving my skills to stay up-to-date with the latest technologies and best practices in web development. I believe that continuous learning is key to becoming a better professional every day.
+Estou constantemente aprendendo e aprimorando minhas habilidades para me manter atualizado com as últimas tecnologias e melhores práticas em desenvolvimento web. Acredito que o aprendizado contínuo é a chave para me tornar um profissional melhor a cada dia.
 
-<h2> 📚 &nbsp;What will you find here?</h2>
+<h2> 📚 &nbsp;O que você vai encontrar aqui?</h2>
 
-This GitHub is more than just a code repository — it's a reflection of my journey, experiences, and commitment to clean, purposeful software development. Whether you're a recruiter, a fellow developer, or someone learning to code, here's what you'll find:
+Este GitHub é mais do que um repositório de código — é um reflexo da minha jornada, experiências e compromisso com desenvolvimento de software limpo e com propósito. Seja você um recrutador, um desenvolvedor ou alguém aprendendo a programar, aqui você vai encontrar:
 
-- Real-world projects showcasing modern front-end development
-- Clean Architecture and best practices in action
-- Experiments, technical studies, and real-world solutions
+- Projetos reais demonstrando desenvolvimento front-end moderno
+- Clean Architecture e boas práticas em ação
+- Experimentos, estudos técnicos e soluções do mundo real
 
-If you'd like to connect, collaborate, or have any questions, feel free to <a href="mailto:lhippolyte214@gmail.com">click here and send me an email</a> — or reach out on <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>. I'm always open to good conversations and interesting opportunities.
+Se quiser se conectar, colaborar ou tiver alguma dúvida, fique à vontade para <a href="mailto:lhippolyte214@gmail.com">clicar aqui e me enviar um e-mail</a> — ou me chamar no <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>. Estou sempre aberto a boas conversas e oportunidades interessantes.
 
 <h2> 🛠 &nbsp;Tech Stack</h2>
 <h3>💻 &nbsp;Front-end:</h3>
@@ -40,12 +40,12 @@ If you'd like to connect, collaborate, or have any questions, feel free to <a hr
 ![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
 ![Tailwind](https://img.shields.io/badge/-Tailwind-333333?style=flat&logo=tailwind-css)
 
-<h3>⚙️ &nbsp;Back-end & Databases:</h3>
+<h3>⚙️ &nbsp;Back-end & Banco de Dados:</h3>
 
 ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
 ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
 
-<h2>🚀 &nbsp;My GitHub Stats</h2>
+<h2>🚀 &nbsp;Minhas Estatísticas no GitHub</h2>
 
 ![Lorran Hippolyte's GitHub Stats](https://github-readme-stats.vercel.app/api?username=LorranHippolyte&show_icons=true&theme=dracula)
