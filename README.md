@@ -73,6 +73,38 @@ Este espaço também reflete minha mentalidade de aprendizado contínuo, experim
 
 Se quiser trocar ideias, colaborar ou conversar sobre tecnologia, produto ou IA aplicada, fique à vontade para entrar em contato por <a href="mailto:lhippolyte214@gmail.com">e-mail</a> ou <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>.
 
+<h2> 🧩 &nbsp;Projetos em Destaque (Featured Projects)</h2>
+
+Estes projetos representam meu foco atual como builder híbrido (Tech + Produto + IA) e serão fixados (Pinned Repositories) no GitHub.
+
+### ⭐ Manaah — Gestão financeira pessoal com visão de produto
+
+Aplicação web focada em organização financeira pessoal e familiar, com ênfase em clareza, controle e tomada de decisão. O projeto nasce como produto real, com preocupação em UX, arquitetura e evolução contínua.
+
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, Node.js
+
+**Repositório:** <a href="https://github.com/LorranHippolyte/manaah">github.com/LorranHippolyte/manaah</a>
+
+---
+
+### ⭐ Genesis OS — Sistema operacional interno para negócios digitais
+
+Plataforma modular para organização de operações, processos, automações e dados, pensada como um "OS" para negócios digitais e agências. Explora fortemente systems thinking, automação e arquitetura escalável.
+
+**Stack:** Next.js, React, TypeScript, Node.js, integrações e automações
+
+**Repositório:** <a href="https://github.com/LorranHippolyte/genesis-os">github.com/LorranHippolyte/genesis-os</a>
+
+---
+
+### ⭐ SmartVida – Landing Page UI — Front-end orientado a conversão
+
+Interface de landing page desenvolvida com foco em performance, clareza de proposta de valor e conversão. Projeto aplicado a contexto real de negócio, conectando design, tecnologia e objetivos comerciais.
+
+**Stack:** React, Next.js, TypeScript, Tailwind CSS
+
+**Repositório:** <a href="https://github.com/Smartvida/landing-page-ui">github.com/Smartvida/landing-page-ui</a>
+
 <h2> 🛠 &nbsp;Tech Stack</h2>
 <h3>💻 &nbsp;Front-end:</h3>
 
@@ -108,4 +140,4 @@ Se quiser trocar ideias, colaborar ou conversar sobre tecnologia, produto ou IA 
 
 <h2>🚀 &nbsp;Minhas Estatísticas no GitHub</h2>
 
-![Lorran Hippolyte's GitHub Stats](https://github-readme-stats.vercel.app/api?username=LorranHippolyte&show_icons=true&theme=dracula)
+![Lorran Hippolyte's GitHub Stats](https://github-readme-stats.vercel.app/api?username=LorranHippolyte&show_icons=true&theme=vue-dark)
