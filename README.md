@@ -9,25 +9,69 @@
 
 <h2> 👨🏻‍💻 &nbsp;Sobre Mim </h2>
 
-<!-- TODO: Adicionar sua história pessoal aqui -->
-Sou Desenvolvedor Front-end com habilidades Full Stack, apaixonado por criar aplicações web modernas, escaláveis e focadas na experiência do usuário. Me especializei em desenvolver interfaces fluidas utilizando tecnologias de ponta como React, Next.js e TypeScript.
+Meu primeiro contato com tecnologia aconteceu aos 14 anos, quando comecei a estudar, explorar e me apaixonar por desenvolvimento e sistemas. Desde cedo, a curiosidade por entender como as coisas funcionam me levou a mergulhar cada vez mais no universo da tecnologia.
 
-Com uma base sólida em front-end e habilidades complementares em back-end, consigo entregar soluções completas que combinam interfaces bonitas com arquitetura robusta.
+Em 2017, me formei em Gestão da Tecnologia da Informação e, logo na sequência, concluí duas especializações: Análise de Sistemas e Gerenciamento de Banco de Dados. A partir daí, iniciei minha atuação profissional na área de tecnologia.
+
+Após um período de transição e experiências em outras frentes, retornei ao mercado tech em 2019. Ao longo dos anos, atuei fortemente na interseção entre Marketing, Tecnologia e Dados, liderando projetos de crescimento, automação e performance digital.
+
+Em 2025, retornei de forma ainda mais profunda ao desenvolvimento de software, com foco direto em código, arquitetura e construção de produtos reais. Hoje, atuo como Desenvolvedor Front-end, com visão Full Stack, criando aplicações modernas, escaláveis e orientadas a problemas reais, utilizando principalmente React, Next.js e TypeScript.
+
+Minha mentalidade é de builder: tecnologia só faz sentido quando resolve problemas concretos, reduz fricções e gera impacto mensurável. Por isso, meu foco está em transformar complexidade em sistemas simples, inteligentes e escaláveis, conectando estratégia à execução.
+
+🎯 **Foco:** UI premium, performance, arquitetura front-end e produtos digitais
+
+🧠 **Forte em:** Design Systems, componentização, estado, integração com APIs e automações
+
+🔁 **Mentalidade:** aprendizado contínuo, execução e melhoria constante
 
 <h2> 🎓 &nbsp;Aprendizado Contínuo </h2>
 
-<!-- TODO: Adicionar sua jornada de aprendizado aqui -->
-Estou constantemente aprendendo e aprimorando minhas habilidades para me manter atualizado com as últimas tecnologias e melhores práticas em desenvolvimento web. Acredito que o aprendizado contínuo é a chave para me tornar um profissional melhor a cada dia.
+Aprender sempre fez parte da minha trajetória. Desde o primeiro contato com tecnologia, busco entender fundamentos, acompanhar evoluções do mercado e aplicar o conhecimento em projetos reais, não apenas em teoria.
+
+Meu aprendizado é guiado por três pilares:
+
+📚 **Base sólida:** estudo constante de arquitetura, boas práticas, padrões e fundamentos de software
+
+🧪 **Aplicação prática:** testar, errar, ajustar e evoluir a partir de projetos reais e problemas concretos
+
+🤝 **Comunidade e troca:** participação ativa em comunidades de tecnologia, compartilhando aprendizados e aprendendo com outros profissionais
+
+Acredito que aprendizado contínuo não é sobre acumular cursos ou ferramentas, mas sobre evoluir como profissional, adaptar-se às mudanças e entregar soluções cada vez melhores, mais simples e mais eficientes.
+
+<h2> 🚀 &nbsp;Foco Atual </h2>
+
+Atualmente, meu trabalho está focado na interseção entre Tecnologia, Produto e Inteligência Artificial, atuando como um builder que conecta visão estratégica à execução técnica.
+
+Meu foco prático envolve:
+
+🤖 **IA aplicada a produtos reais:** uso de IA para automação, apoio à decisão, otimização de fluxos e criação de sistemas inteligentes
+
+🧩 **Construção de produtos digitais:** desenvolvimento de SaaS, ferramentas internas e sistemas sob medida, do zero à produção
+
+⚙️ **Automação e systems thinking:** criação de pipelines, integrações e arquiteturas que reduzem esforço operacional e aumentam eficiência
+
+🖥️ **Front-end moderno e arquitetural:** interfaces robustas e escaláveis com React, Next.js (App Router) e TypeScript
+
+Meu objetivo é construir produtos e sistemas que funcionam no mundo real, combinando código, dados e inteligência para gerar clareza, controle e crescimento sustentável.
 
 <h2> 📚 &nbsp;O que você vai encontrar aqui?</h2>
 
-Este GitHub é mais do que um repositório de código — é um reflexo da minha jornada, experiências e compromisso com desenvolvimento de software limpo e com propósito. Seja você um recrutador, um desenvolvedor ou alguém aprendendo a programar, aqui você vai encontrar:
+Este GitHub vai além de um simples repositório de código. Ele representa minha trajetória prática como builder, unindo tecnologia, produto e inteligência artificial aplicados a problemas reais.
 
-- Projetos reais demonstrando desenvolvimento front-end moderno
-- Clean Architecture e boas práticas em ação
-- Experimentos, estudos técnicos e soluções do mundo real
+Aqui você vai encontrar:
 
-Se quiser se conectar, colaborar ou tiver alguma dúvida, fique à vontade para <a href="mailto:lhippolyte214@gmail.com">clicar aqui e me enviar um e-mail</a> — ou me chamar no <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>. Estou sempre aberto a boas conversas e oportunidades interessantes.
+🚀 **Produtos e sistemas reais:** SaaS, ferramentas internas, automações e soluções construídas para uso em produção
+
+🧠 **Arquitetura e pensamento de sistemas:** organização de código, decisões técnicas e estruturas pensadas para escalar
+
+🤖 **IA aplicada no mundo real:** automações inteligentes, apoio à decisão e integração de IA em fluxos de negócio
+
+🧩 **Front-end moderno e bem arquitetado:** interfaces com foco em clareza, performance e experiência do usuário
+
+Este espaço também reflete minha mentalidade de aprendizado contínuo, experimentação responsável e busca por soluções simples para problemas complexos.
+
+Se quiser trocar ideias, colaborar ou conversar sobre tecnologia, produto ou IA aplicada, fique à vontade para entrar em contato por <a href="mailto:lhippolyte214@gmail.com">e-mail</a> ou <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>.
 
 <h2> 🛠 &nbsp;Tech Stack</h2>
 <h3>💻 &nbsp;Front-end:</h3>
