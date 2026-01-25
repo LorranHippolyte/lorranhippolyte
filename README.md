@@ -133,8 +133,8 @@ Stack que utilizo na prática, alinhada aos projetos deste GitHub.
 ![Vercel](https://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-333333?style=flat&logo=cloudflare)
 ![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase)
-![Neon](https://img.shields.io/badge/-Neon-333333?style=flat&logo=neon)
-![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=convex)
+![Neon](https://img.shields.io/badge/-Neon-333333?style=flat&logo=postgresql&logoColor=00E699)
+![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=databricks&logoColor=FF6F61)
 ![Clerk](https://img.shields.io/badge/-Clerk-333333?style=flat&logo=clerk)
 
 <h3>🤖 &nbsp;Produto, IA & Automação</h3>
