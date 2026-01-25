@@ -1,10 +1,15 @@
 <h1>👋 &nbsp;Lorran Hippolyte - Desenvolvedor Front-end (com visão Full Stack)</h1>
+
 <p align="center">
-<a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-Meu%20LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-Meu%20Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.youtube.com/@lorranhippolyte"><img src="https://img.shields.io/badge/-Meu%20YouTube-D62422?style=flat-square&labelColor=D62422&logo=youtube&logoColor=white"/></a>
-<a href="https://www.lorranhippolyte.com/"><img src="https://img.shields.io/badge/-Meu%20Portfólio-000000?style=flat-square&logo=react&logoColor=white"/></a>
-<a href="mailto:lhippolyte214@gmail.com"><img src="https://img.shields.io/badge/-Me%20Envie%20uma%20Mensagem-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
+<strong>SaaS • Automação • IA Aplicada • Front-end Premium</strong>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
+<a href="https://www.youtube.com/@lorranhippolyte"><img src="https://img.shields.io/badge/-YouTube-D62422?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+<a href="https://www.lorranhippolyte.com/"><img src="https://img.shields.io/badge/-Portfólio-000000?style=for-the-badge&logo=react&logoColor=white"/></a>
+<a href="mailto:lhippolyte214@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
 </p>
 
 <h2> 👨🏻‍💻 &nbsp;Sobre Mim </h2>
@@ -128,6 +133,7 @@ Stack que utilizo na prática, alinhada aos projetos deste GitHub.
 ![Vercel](https://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-333333?style=flat&logo=cloudflare)
 ![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase)
+![Neon](https://img.shields.io/badge/-Neon-333333?style=flat&logo=neon)
 ![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=convex)
 ![Clerk](https://img.shields.io/badge/-Clerk-333333?style=flat&logo=clerk)
 
