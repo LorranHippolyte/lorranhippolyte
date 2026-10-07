@@ -8,9 +8,11 @@ const profile = JSON.parse(readFileSync(new URL('data/profile.json', root), 'utf
 mkdirSync(new URL('assets/', root), { recursive: true });
 
 for (const theme of ['dark', 'light']) {
-  for (const animated of [true, false]) {
-    const name = `assets/hero-${theme}${animated ? '' : '-static'}.svg`;
-    writeFileSync(new URL(name, root), hero(profile.hero, theme, { animated }) + '\n');
-    console.log('gerado', name);
+  for (const compact of [false, true]) {
+    for (const animated of [true, false]) {
+      const name = `assets/hero-${theme}${compact ? '-compact' : ''}${animated ? '' : '-static'}.svg`;
+      writeFileSync(new URL(name, root), hero(profile.hero, theme, { animated, compact }) + '\n');
+      console.log('gerado', name);
+    }
   }
 }

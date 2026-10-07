@@ -1,4 +1,8 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-compact-static.svg">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-compact-static.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-compact.svg">
+  <source media="(max-width: 600px)" srcset="assets/hero-light-compact.svg">
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
@@ -16,6 +20,8 @@
 
 <a href="https://github.com/LorranHippolyte/uiport">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-dark-compact.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-light-compact.svg">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-dark.svg">
     <img src="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-light.svg" width="100%" alt="UIport, CLI open source. Versão publicada no npm, licença MIT e data da última release, atualizadas diariamente.">
   </picture>

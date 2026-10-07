@@ -33,14 +33,27 @@ check(4, 'imagens só deste repo (relativas ou branch output)', badImgs.length =
 
 // Item 5: <picture> com claro/escuro, movimento reduzido e alt
 const pictures = [...readme.matchAll(/<picture>([\s\S]*?)<\/picture>/g)].map((m) => m[1]);
+// Ordem importa: o navegador usa o primeiro <source> que casa.
+const M = '(max-width: 600px)', R = '(prefers-reduced-motion: reduce)', D = '(prefers-color-scheme: dark)';
+const expectedHero = [
+  [`${M} and ${R} and ${D}`, 'assets/hero-dark-compact-static.svg'], [`${M} and ${R}`, 'assets/hero-light-compact-static.svg'],
+  [`${M} and ${D}`, 'assets/hero-dark-compact.svg'], [M, 'assets/hero-light-compact.svg'],
+  [`${R} and ${D}`, 'assets/hero-dark-static.svg'], [R, 'assets/hero-light-static.svg'], [D, 'assets/hero-dark.svg'],
+];
+const expectedCard = [
+  [`${M} and ${D}`, `${OUTPUT}uiport-dark-compact.svg`], [M, `${OUTPUT}uiport-light-compact.svg`], [D, `${OUTPUT}uiport-dark.svg`],
+];
+const sourcesOf = (pic) => [...(pic ?? '').matchAll(/<source media="([^"]+)" srcset="([^"]+)">/g)].map((m) => [m[1], m[2]]);
+const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const heroPic = pictures.find((p) => p.includes('hero-'));
-check(5, 'hero com dark, light e static (reduced motion)',
-  !!heroPic && /prefers-color-scheme: dark\)" srcset="assets\/hero-dark\.svg/.test(heroPic) &&
-  /prefers-reduced-motion: reduce\) and \(prefers-color-scheme: dark\)" srcset="assets\/hero-dark-static\.svg/.test(heroPic) &&
-  /prefers-reduced-motion: reduce\)" srcset="assets\/hero-light-static\.svg/.test(heroPic) &&
-  /<img src="assets\/hero-light\.svg"/.test(heroPic));
+check(5, 'hero: claro/escuro × movimento reduzido × compacto (7 sources, ordem certa)',
+  same(sourcesOf(heroPic), expectedHero) && /<img src="assets\/hero-light\.svg"/.test(heroPic ?? ''));
 const cardPic = pictures.find((p) => p.includes('uiport-'));
-check(5, 'card do UIport com dark e light (card sem animação)', !!cardPic && cardPic.includes('uiport-dark.svg') && cardPic.includes('uiport-light.svg'));
+check(5, 'card do UIport: claro/escuro × compacto (card sem animação)',
+  same(sourcesOf(cardPic), expectedCard) && (cardPic ?? '').includes(`<img src="${OUTPUT}uiport-light.svg"`));
+const heroFiles = readdirSync(new URL('assets/', root)).filter((f) => f.endsWith('.svg')).map((f) => `assets/${f}`);
+const referenced = new Set([...expectedHero.map((e) => e[1]), 'assets/hero-light.svg']);
+check(5, 'todo SVG em assets/ é usado no README', heroFiles.every((f) => referenced.has(f)) && heroFiles.length === referenced.size);
 const imgTags = [...readme.matchAll(/<img\b[^>]*>/g)].map((m) => m[0]);
 const noAlt = imgTags.filter((t) => !/alt="[^"]{20,}"/.test(t));
 check(5, 'todo <img> com alt descritivo (20+ caracteres)', imgTags.length > 0 && noAlt.length === 0, noAlt.join(' | '));

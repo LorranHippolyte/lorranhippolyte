@@ -34,7 +34,9 @@ const info = {
 
 mkdirSync(outDir, { recursive: true });
 for (const theme of ['dark', 'light']) {
-  writeFileSync(new URL(`uiport-${theme}.svg`, outDir), projectCard(card, info, theme) + '\n');
+  for (const compact of [false, true]) {
+    writeFileSync(new URL(`uiport-${theme}${compact ? '-compact' : ''}.svg`, outDir), projectCard(card, info, theme, { compact }) + '\n');
+  }
 }
 writeFileSync(new URL('uiport.json', outDir), JSON.stringify({ repo, ...info, release: release.tag_name }, null, 2) + '\n');
 console.log('cards gerados:', JSON.stringify(info));
