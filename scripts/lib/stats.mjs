@@ -41,9 +41,9 @@ export function statsCard(card, s, themeName, { animated, compact = false }) {
 
   const items = [
     [fmt(s.total), 'CONTRIBUIÇÕES', ''],
-    [fmt(s.commits), 'COMMITS', ''],
-    [fmt(s.prs), 'PULL REQUESTS', ''],
-    [fmt(s.reviews), 'REVIEWS', ''],
+    [fmt(s.commits), 'COMMITS PÚBLICOS', ''],
+    [fmt(s.prs), 'PRS PÚBLICOS', ''],
+    [fmt(s.reviews), 'REVIEWS PÚBLICOS', ''],
     [fmt(s.current), 'SEQUÊNCIA ATUAL', s.current === 1 ? 'dia' : 'dias'],
     [fmt(s.longest), 'MAIOR SEQUÊNCIA', s.longest === 1 ? 'dia' : 'dias'],
   ];

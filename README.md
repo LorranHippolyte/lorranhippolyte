@@ -136,7 +136,7 @@
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/stats-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/stats-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/stats-dark.svg">
-  <img src="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/stats-light.svg" width="100%" alt="Atividade no GitHub nos últimos 12 meses: contribuições, commits, pull requests, reviews, sequência atual e maior sequência de dias, com mapa de atividade. Atualizado diariamente.">
+  <img src="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/stats-light.svg" width="100%" alt="Atividade no GitHub nos últimos 12 meses: total de contribuições (incluindo repositórios privados), commits, pull requests e reviews públicos, sequência atual e maior sequência de dias, com mapa de atividade. Atualizado diariamente.">
 </picture>
 
 <details>
