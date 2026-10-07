@@ -16,6 +16,7 @@ export const fonts = {
   serif: load('@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff'),
   serifItalic: load('@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff'),
   sans: load('@fontsource/inter/files/inter-latin-400-normal.woff'),
+  sansMedium: load('@fontsource/inter/files/inter-latin-500-normal.woff'),
   mono: load('@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff'),
 };
 

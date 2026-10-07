@@ -10,15 +10,18 @@ const read = (p) => readFileSync(new URL(p, root), 'utf8');
 const readme = read('README.md');
 const profile = JSON.parse(read('data/profile.json'));
 
+const listSvgs = (d) => (existsSync(new URL(`${d}/`, root))
+  ? readdirSync(new URL(`${d}/`, root), { recursive: true }).filter((f) => f.endsWith('.svg')).map((f) => `${d}/${f}`).sort() : []);
+
 const results = [];
 const check = (item, name, ok, detail = '') => results.push({ item, name, ok, detail });
 const manual = (item, name, detail) => results.push({ item, name, ok: null, detail });
 
 // Item 1: estrutura e conteúdo removido
-const banned = ['Sugestão: fixar', 'Aprendizado Contínuo', 'O que você vai encontrar', 'github-readme-stats', 'Desenvolvedor Front-end'];
+const banned = ['Sugestão: fixar', 'O que você vai encontrar', 'github-readme-stats', 'img.shields.io', 'Desenvolvedor Front-end', 'Sobre Mim'];
 const found = banned.filter((b) => readme.includes(b));
 check(1, 'sem conteúdo removido pelo plano', found.length === 0, found.join(', '));
-const sections = ['## Agora', '## Open source', '## Como eu trabalho', '## Stack em uso', '## Contato', '<summary>English summary</summary>'];
+const sections = ['<!-- social:end -->', '## Agora', '**flatt**', '## Foco atual', '## Open source', '## Como eu trabalho', '## Aprendizado contínuo', '## Stack em uso', '<!-- stack:end -->', '## Atividade no GitHub', '<summary>English summary</summary>'];
 const missing = sections.filter((s) => !readme.includes(s));
 check(1, 'seções aprovadas presentes', missing.length === 0, missing.join(', '));
 
@@ -51,16 +54,27 @@ check(5, 'hero: claro/escuro × movimento reduzido × compacto (7 sources, ordem
 const cardPic = pictures.find((p) => p.includes('uiport-'));
 check(5, 'card do UIport: claro/escuro × compacto (card sem animação)',
   same(sourcesOf(cardPic), expectedCard) && (cardPic ?? '').includes(`<img src="${OUTPUT}uiport-light.svg"`));
-const heroFiles = readdirSync(new URL('assets/', root)).filter((f) => f.endsWith('.svg')).map((f) => `assets/${f}`);
-const referenced = new Set([...expectedHero.map((e) => e[1]), 'assets/hero-light.svg']);
-check(5, 'todo SVG em assets/ é usado no README', heroFiles.every((f) => referenced.has(f)) && heroFiles.length === referenced.size);
+const expectedStats = expectedHero.map(([m, f]) => [m, f.replace('assets/hero-', `${OUTPUT}stats-`)]);
+const statsPic = pictures.find((p) => p.includes('stats-'));
+check(5, 'card de atividade: claro/escuro × movimento reduzido × compacto (7 sources, ordem certa)',
+  same(sourcesOf(statsPic), expectedStats) && (statsPic ?? '').includes(`<img src="${OUTPUT}stats-light.svg"`));
+const badgePics = pictures.filter((p) => p.includes('assets/badges/'));
+const badBadges = badgePics.filter((p) => {
+  const src = sourcesOf(p);
+  const img = p.match(/<img src="([^"]+)"/)?.[1] ?? '';
+  return src.length !== 1 || src[0][0] !== D || src[0][1] !== img.replace('-light.svg', '-dark.svg') || !img.endsWith('-light.svg');
+});
+check(5, `badges de stack com variante clara e escura (${badgePics.length})`, badgePics.length > 0 && badBadges.length === 0, badBadges.join(' | ').slice(0, 200));
+const assetFiles = listSvgs('assets');
+const unused = assetFiles.filter((f) => !readme.includes(`"${f}"`));
+check(5, `todo SVG em assets/ é usado no README (${assetFiles.length})`, unused.length === 0, unused.join(', '));
 const imgTags = [...readme.matchAll(/<img\b[^>]*>/g)].map((m) => m[0]);
-const noAlt = imgTags.filter((t) => !/alt="[^"]{20,}"/.test(t));
-check(5, 'todo <img> com alt descritivo (20+ caracteres)', imgTags.length > 0 && noAlt.length === 0, noAlt.join(' | '));
+// Badge: alt = nome da tecnologia ou da rede. Demais imagens: alt descritivo (20+ caracteres).
+const noAlt = imgTags.filter((t) => (t.includes('assets/badges/') ? !/alt="[^"]{2,}"/.test(t) : !/alt="[^"]{20,}"/.test(t)));
+check(5, `todo <img> com alt (badges: nome; demais: descritivo) (${imgTags.length})`, imgTags.length > 0 && noAlt.length === 0, noAlt.join(' | '));
 
 // Item 6: SVGs autocontidos
-const svgFiles = ['assets', 'out'].flatMap((d) =>
-  existsSync(new URL(`${d}/`, root)) ? readdirSync(new URL(`${d}/`, root)).filter((f) => f.endsWith('.svg')).map((f) => `${d}/${f}`) : []);
+const svgFiles = [...listSvgs('assets'), ...listSvgs('out')];
 for (const f of svgFiles) {
   const s = read(f);
   const size = statSync(new URL(f, root)).size;
