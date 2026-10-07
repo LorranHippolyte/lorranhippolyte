@@ -1,0 +1,45 @@
+{
+  "$comment": "Fonte única dos fatos públicos do perfil. Cada item de `afirmacoes` precisa aparecer literalmente no README.md e ter fonte. `npm run check` valida isso.",
+  "hero": {
+    "eyebrow": "GENESIS WORK · LUMINASOFT · ORACTIA",
+    "nome": ["Lorran", "Hippolyte"],
+    "tese": [
+      "Construo sistemas de crescimento na interseção",
+      "entre marketing, tecnologia e IA."
+    ],
+    "alt": "Lorran Hippolyte. Construo sistemas de crescimento na interseção entre marketing, tecnologia e IA. Genesis Work, LuminaSoft e ORACTIA."
+  },
+  "cards": {
+    "uiport": {
+      "repo": "LorranHippolyte/uiport",
+      "npm": "uiport",
+      "titulo": "UIport",
+      "rotulo": "OPEN SOURCE · CLI",
+      "licenca": "MIT"
+    }
+  },
+  "afirmacoes": [
+    { "texto": "Construo sistemas de crescimento na interseção entre marketing, tecnologia e IA.", "fonte": "Autodefinição na biografia interna (gestão Genesis); quase igual à bio pública em luminasoft.com.br. Aprovada no Gate 1 (06/10/2026)" },
+    { "texto": "**Genesis Work Company**, fundador e CEO", "fonte": "genesiswork.company, seção Contato: \"CEO & Founder\"" },
+    { "texto": "Transformamos marketing em sistema usando IA, dados e automação.", "fonte": "genesiswork.company, meta description" },
+    { "texto": "**ORACTIA**, cofundador e CEO", "fonte": "oractia.com.br/sobre: \"Cofundador · CEO\". Decisão D2 do Gate 1" },
+    { "texto": "CRM, atendimento, automações e IA em um só sistema.", "fonte": "oractia.com.br, texto da home" },
+    { "texto": "**LuminaSoft**, cofundador", "fonte": "luminasoft.com.br, seção Equipe: \"CGO · Co-fundador\"" },
+    { "texto": "Software house com três sócios fundadores que escrevem o código: sistemas, plataformas, automações e dashboards sob medida.", "fonte": "luminasoft.com.br, meta description" },
+    { "texto": "**flatt**, produto da LuminaSoft", "fonte": "Produto ativo da LuminaSoft (CLAUDE.md da gestão Genesis e biografia interna); site público flatt.com.br. Sem link para repo (privado)" },
+    { "texto": "Inferência de modelos de linguagem por preço fixo mensal, sem contagem de token.", "fonte": "flatt.com.br, meta description (produto ativo da LuminaSoft)" },
+    { "texto": "Bring a rendered web section into your next project as editable HTML, CSS and local assets.", "fonte": "github.com/LorranHippolyte/uiport, descrição do repositório" },
+    { "texto": "sem conta e sem chave de API", "fonte": "README do UIport: roda localmente, sem conta, chave de API ou serviço hospedado" },
+    { "texto": "[vinilana/dotcontext#41](https://github.com/vinilana/dotcontext/pull/41)", "fonte": "PR mergeado em 22/03/2026 (gh pr view 41 -R vinilana/dotcontext)" },
+    { "texto": "Empresa não cresce por mais esforço, cresce por sistema.", "fonte": "Tese na biografia interna (gestão Genesis). Aprovada no Gate 1" },
+    { "texto": "Formação em TI, com especializações em Análise de Sistemas e Banco de Dados", "fonte": "lorranhippolyte.com, seção Formação, e biografia interna. Sem anos (D9)" },
+    { "texto": "Opero IA no dia a dia: agentes, MCP e Claude Code", "fonte": "Configuração viva da máquina (dotfiles): Claude Code, Codex e MCPs em uso, com agentes e skills próprios" },
+    { "texto": "Shopify Partner · Parceiro Bling ERP · Embaixador AI Coders Academy", "fonte": "Biografia interna (parcerias desde 08/2026); embaixador também em lorranhippolyte.com (JSON-LD). Aprovado no Gate 1" },
+    { "texto": "Marido e pai de seis.", "fonte": "Bio pública do Instagram @lorranhippolyte. Decisão D3 do Gate 1" },
+    { "texto": "https://www.linkedin.com/in/lorranhippolyte/", "fonte": "Decisão D8 do Gate 1" },
+    { "texto": "lhippolyte214@gmail.com", "fonte": "Decisão D7 do Gate 1" }
+  ],
+  "stack": {
+    "fonte": "Varredura de package.json, wrangler e Docker em 16 projetos e 5 temas Shopify ativos (06/10/2026); flatt pelo README do repositório"
+  }
+}
