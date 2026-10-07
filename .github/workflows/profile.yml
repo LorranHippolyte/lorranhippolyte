@@ -1,0 +1,101 @@
+# Mantém o perfil vivo sem serviço de terceiros no render:
+# - verify: o hero versionado é reproduzível e os SVGs passam na checagem da DoD
+# - publish: o card do UIport (versão no npm e última release) vai para a branch `output`
+# - report-failure: se algo falhar fora de PR, abre (ou comenta) uma issue
+# Só usa o GITHUB_TOKEN, com permissão mínima por job.
+name: profile
+
+on:
+  schedule:
+    - cron: "23 9 * * *" # 06:23 em Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions: {}
+
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Hero reproduzível
+        run: |
+          npm run build
+          git diff --exit-code -- assets/
+      - name: Cards com dado vivo
+        run: npm run cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Checagem da DoD (offline)
+        run: node scripts/check.mjs --offline
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: cards
+          path: out/
+          retention-days: 3
+
+  publish:
+    needs: verify
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: cards
+          path: ${{ runner.temp }}/cards
+      - name: Publicar na branch output
+        env:
+          CARDS: ${{ runner.temp }}/cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth 1 origin output; then
+            git checkout -B output FETCH_HEAD
+          else
+            git checkout --orphan output
+          fi
+          git rm -rqf --ignore-unmatch .
+          cp "$CARDS"/* .
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Cards sem mudança."
+            exit 0
+          fi
+          git commit -m "cards: $(cat uiport.json | tr -d '\n ' | head -c 120)"
+          git push origin output
+
+  report-failure:
+    needs: [verify, publish]
+    if: failure() && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Abrir ou comentar issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Falha na atualização do perfil"
+          n=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          body="A Action \`profile\` falhou: $RUN_URL. O último card publicado continua no ar."
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"; else gh issue create --title "$title" --body "$body"; fi

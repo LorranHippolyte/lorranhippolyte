@@ -1,154 +1,64 @@
-<h1>👋 &nbsp;Lorran Hippolyte - Desenvolvedor Front-end (com visão Full Stack)</h1>
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-compact-static.svg">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-compact-static.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-compact.svg">
+  <source media="(max-width: 600px)" srcset="assets/hero-light-compact.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Lorran Hippolyte. Construo sistemas de crescimento na interseção entre marketing, tecnologia e IA. Genesis Work, LuminaSoft e ORACTIA.">
+</picture>
 
-<p align="center">
-<strong>SaaS • Automação • IA Aplicada • Front-end Premium</strong>
-</p>
+## Agora
 
-<p align="center">
-<a href="https://www.linkedin.com/in/lorranhippolyte/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/lorranhippolyte"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.youtube.com/@lorranhippolyte"><img src="https://img.shields.io/badge/-YouTube-D62422?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-<a href="https://www.lorranhippolyte.com/"><img src="https://img.shields.io/badge/-Portfólio-000000?style=for-the-badge&logo=react&logoColor=white"/></a>
-<a href="mailto:lhippolyte214@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
-</p>
+- **Genesis Work Company**, fundador e CEO. Transformamos marketing em sistema usando IA, dados e automação. [genesiswork.company](https://genesiswork.company)
+- **ORACTIA**, cofundador e CEO. CRM, atendimento, automações e IA em um só sistema. [oractia.com.br](https://oractia.com.br)
+- **LuminaSoft**, cofundador. Software house com três sócios fundadores que escrevem o código: sistemas, plataformas, automações e dashboards sob medida. [luminasoft.com.br](https://luminasoft.com.br)
+  - **flatt**, produto da LuminaSoft. Inferência de modelos de linguagem por preço fixo mensal, sem contagem de token. [flatt.com.br](https://flatt.com.br)
 
-<h2> 👨🏻‍💻 &nbsp;Sobre Mim </h2>
+## Open source
 
-Meu primeiro contato com tecnologia aconteceu aos 14 anos — e desde então, a curiosidade por entender como as coisas funcionam só cresceu.
+<a href="https://github.com/LorranHippolyte/uiport">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-dark-compact.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-light-compact.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-dark.svg">
+    <img src="https://raw.githubusercontent.com/LorranHippolyte/lorranhippolyte/output/uiport-light.svg" width="100%" alt="UIport, CLI open source. Versão publicada no npm, licença MIT e data da última release, atualizadas diariamente.">
+  </picture>
+</a>
 
-Em 2017, me formei em Gestão da Tecnologia da Informação e, na sequência, concluí duas especializações: Análise de Sistemas e Gerenciamento de Banco de Dados. Foi quando comecei minha atuação profissional na área.
+**[UIport](https://github.com/LorranHippolyte/uiport)**: *Bring a rendered web section into your next project as editable HTML, CSS and local assets.* CLI local, sem conta e sem chave de API, que compara a cópia com a fonte em vários tamanhos de tela. MIT · [npm](https://www.npmjs.com/package/uiport)
 
-Após um período de transição, retornei ao mercado tech em 2019 e atuei intensamente na interseção entre Marketing, Tecnologia e Dados, liderando projetos de crescimento, automação e performance.
+**Contribuições:** [vinilana/dotcontext#41](https://github.com/vinilana/dotcontext/pull/41) (merged)
 
-Em 2025, voltei ainda mais profundo ao desenvolvimento de software, com foco direto em código, arquitetura e construção de produtos. Hoje atuo como Desenvolvedor Front-end, com visão Full Stack, criando aplicações modernas e escaláveis com React, Next.js e TypeScript.
+## Como eu trabalho
 
-Minha mentalidade é de builder: tecnologia só faz sentido quando reduz fricções, organiza a operação e melhora decisões. Por isso, busco transformar complexidade em sistemas simples, inteligentes e escaláveis, conectando estratégia à execução.
+> Empresa não cresce por mais esforço, cresce por sistema.
 
-🎯 **Foco:** UI premium, performance, arquitetura front-end e produtos digitais
+- Formação em TI, com especializações em Análise de Sistemas e Banco de Dados, somada a anos de marketing, growth e dados.
+- Opero IA no dia a dia: agentes, MCP e Claude Code orquestrando o desenvolvimento e a operação das empresas.
+- Shopify Partner · Parceiro Bling ERP · Embaixador AI Coders Academy
+- Marido e pai de seis.
 
-🧠 **Forte em:** Design Systems, componentização, estado, integração com APIs e automações
+## Stack em uso
 
-🔁 **Mentalidade:** aprendizado contínuo, execução e melhoria constante
+| Camada | Ferramentas |
+|---|---|
+| Produto | TypeScript · React 19 · Next.js 16 · Astro · Tailwind CSS v4 · shadcn/ui · GSAP · Motion |
+| Back-end e dados | Hono · Fastify · tRPC · Drizzle · Prisma · Better Auth · PostgreSQL (Neon) · TanStack Query |
+| Infra | Cloudflare Workers e D1 · Docker · Dokploy · Turborepo · pnpm · Biome · Vitest · Playwright |
+| E-commerce | Shopify (Liquid, Online Store 2.0) · Bling ERP |
+| IA | Vercel AI SDK · MCP · Claude Code · Codex |
 
-<h2> 🎓 &nbsp;Aprendizado Contínuo </h2>
+## Contato
 
-Aprender sempre fez parte da minha trajetória. Busco dominar fundamentos, acompanhar evoluções do mercado e aplicar conhecimento em projetos reais — não apenas em teoria.
+[lorranhippolyte.com](https://www.lorranhippolyte.com/) · [LinkedIn](https://www.linkedin.com/in/lorranhippolyte/) · [Instagram](https://www.instagram.com/lorranhippolyte/) · [lhippolyte214@gmail.com](mailto:lhippolyte214@gmail.com)
 
-Meu aprendizado é guiado por três pilares:
+<details>
+<summary>English summary</summary>
 
-📚 **Base sólida:** arquitetura, padrões, boas práticas e fundamentos de software
+I build growth systems where marketing, technology and AI meet. I'm the founder and CEO of **Genesis Work Company**, which turns marketing into a system with AI, data and automation. I'm co-founder and CEO of **ORACTIA**, which puts CRM, customer service, automation and AI in a single system. I'm also co-founder of **LuminaSoft**, a software house whose founders write the code. Its product, **flatt**, offers language-model inference at a flat monthly price.
 
-🧪 **Aplicação prática:** testar, errar, ajustar e evoluir a partir de problemas reais
+In open source I maintain **[UIport](https://github.com/LorranHippolyte/uiport)**, a local CLI that brings a rendered web section into your project as editable HTML, CSS and local assets.
 
-🤝 **Comunidade e troca:** participação ativa em comunidades, compartilhando e aprendendo com outros profissionais
-
-Acredito que aprendizado contínuo não é sobre acumular ferramentas, mas sobre evoluir como profissional, adaptar-se rápido e entregar soluções cada vez melhores.
-
-<h2> 🚀 &nbsp;Foco Atual </h2>
-
-Atualmente, meu trabalho está na interseção entre Tecnologia, Produto e Inteligência Artificial, conectando visão estratégica à execução técnica.
-
-Na prática, isso envolve:
-
-🤖 **IA aplicada a produtos reais:** automação, apoio à decisão, otimização de fluxos e sistemas inteligentes
-
-🧩 **Construção de produtos digitais:** SaaS, ferramentas internas e sistemas sob medida (do zero à produção)
-
-⚙️ **Automação e systems thinking:** integrações, pipelines e arquitetura para eficiência operacional
-
-🖥️ **Front-end moderno e arquitetural:** interfaces robustas e escaláveis com React, Next.js (App Router) e TypeScript
-
-Meu objetivo é construir produtos e sistemas que funcionam no mundo real, combinando código, dados e inteligência para gerar clareza, controle e crescimento sustentável.
-
-<h2> 📚 &nbsp;O que você vai encontrar aqui?</h2>
-
-Este GitHub vai além de um repositório de código. Ele reflete minha trajetória prática na construção de produtos, sistemas e automações, com tecnologia e IA aplicadas a problemas reais.
-
-Aqui você vai encontrar:
-
-🚀 **Produtos e sistemas reais:** SaaS, ferramentas internas, automações e soluções em produção
-
-🧠 **Arquitetura e pensamento sistêmico:** decisões técnicas, organização e padrões pensados para escalar
-
-🤖 **IA aplicada no mundo real:** automações inteligentes, apoio à decisão e integrações em fluxos de negócio
-
-🧩 **Front-end moderno e bem arquitetado:** foco em clareza, performance e experiência do usuário
-
-Se quiser trocar ideias, colaborar ou conversar sobre tecnologia, produto ou IA aplicada, fique à vontade para falar comigo por <a href="mailto:lhippolyte214@gmail.com">e-mail</a> ou <a href="https://www.linkedin.com/in/lorranhippolyte/">LinkedIn</a>.
-
-<h2> 🧩 &nbsp;Projetos em Destaque (Featured Projects)</h2>
-
-Projetos que representam meu foco atual como builder híbrido (Tech + Produto + IA). Sugestão: fixar (Pinned Repositories) no perfil.
-
-### ⭐ Manaah — Gestão financeira pessoal com visão de produto
-
-Aplicação web para organização financeira pessoal e familiar, com ênfase em clareza, controle e tomada de decisão. Produto em evolução contínua, com cuidado em UX e arquitetura.
-
-**Stack:** Next.js, React, TypeScript, Tailwind CSS, Node.js
-
-**Repositório:** <a href="https://github.com/LorranHippolyte/manaah">github.com/LorranHippolyte/manaah</a>
-
----
-
-### ⭐ Genesis OS — "OS" interno para negócios digitais
-
-Plataforma modular para organizar operações, processos, automações e dados. Forte em systems thinking, automação e arquitetura escalável.
-
-**Stack:** Next.js, React, TypeScript, Node.js, integrações e automações
-
-**Repositório:** <a href="https://github.com/LorranHippolyte/genesis-os">github.com/LorranHippolyte/genesis-os</a>
-
----
-
-### ⭐ SmartVida — Landing Page UI — Front-end orientado a conversão
-
-Landing page com foco em performance, clareza de proposta de valor e conversão, conectando design, tecnologia e objetivos comerciais.
-
-**Stack:** React, Next.js, TypeScript, Tailwind CSS
-
-**Repositório:** <a href="https://github.com/Smartvida/landing-page-ui">github.com/Smartvida/landing-page-ui</a>
-
-<h2> 🛠 &nbsp;Stack Tecnológica</h2>
-
-Stack que utilizo na prática, alinhada aos projetos deste GitHub.
-
-<h3>💻 &nbsp;Front-end</h3>
-
-![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript&logoColor=2D79C7)
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
-![Tailwind](https://img.shields.io/badge/-Tailwind-333333?style=flat&logo=tailwind-css)
-
-<h3>⚙️ &nbsp;Back-end & Infra</h3>
-
-![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
-![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
-
-<h3>☁️ &nbsp;Cloud & Serviços</h3>
-
-![Vercel](https://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-333333?style=flat&logo=cloudflare)
-![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase)
-![Neon](https://img.shields.io/badge/-Neon-333333?style=flat&logo=postgresql&logoColor=00E699)
-![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=databricks&logoColor=FF6F61)
-![Clerk](https://img.shields.io/badge/-Clerk-333333?style=flat&logo=clerk)
-
-<h3>🤖 &nbsp;Produto, IA & Automação</h3>
-
-Arquitetura de software orientada a produto, automação de fluxos e sistemas, e IA aplicada para apoio à decisão, eficiência operacional e produtos inteligentes.
-
-<h3>🔧 &nbsp;Ferramentas</h3>
-
-![VS Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Cursor](https://img.shields.io/badge/-Cursor-333333?style=flat&logo=cursor)
-![GitHub Copilot](https://img.shields.io/badge/-GitHub%20Copilot-333333?style=flat&logo=github)
-![Claude](https://img.shields.io/badge/-Claude-333333?style=flat&logo=anthropic)
-![Replit](https://img.shields.io/badge/-Replit-333333?style=flat&logo=replit)
-
-<h2>🚀 &nbsp;Minhas Estatísticas no GitHub</h2>
-
-![Lorran Hippolyte's GitHub Stats](https://github-readme-stats.vercel.app/api?username=LorranHippolyte&show_icons=true&theme=vue-dark)
+</details>
