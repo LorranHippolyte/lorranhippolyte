@@ -1,6 +1,6 @@
 # Mantém o perfil vivo sem serviço de terceiros no render:
-# - verify: o hero versionado é reproduzível e os SVGs passam na checagem da DoD
-# - publish: o card do UIport (versão no npm e última release) vai para a branch `output`
+# - verify: hero, badges e blocos gerados do README são reproduzíveis e passam na checagem da DoD
+# - publish: cards vivos (UIport e atividade no GitHub via GraphQL) vão para a branch `output`
 # - report-failure: se algo falhar fora de PR, abre (ou comenta) uma issue
 # Só usa o GITHUB_TOKEN, com permissão mínima por job.
 name: profile
@@ -33,10 +33,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Hero reproduzível
+      - name: Assets e README reproduzíveis
         run: |
           npm run build
-          git diff --exit-code -- assets/
+          git diff --exit-code -- assets/ README.md
       - name: Cards com dado vivo
         run: npm run cards
         env:
@@ -79,7 +79,7 @@ jobs:
             echo "Cards sem mudança."
             exit 0
           fi
-          git commit -m "cards: $(cat uiport.json | tr -d '\n ' | head -c 120)"
+          git commit -m "cards: $(date -u +%F)"
           git push origin output
 
   report-failure:
