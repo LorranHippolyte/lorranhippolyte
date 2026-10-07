@@ -10,7 +10,7 @@ on:
     - cron: "23 9 * * *" # 06:23 em Brasília
   workflow_dispatch:
   push:
-    branches: [main, feat/readme-perfil-2026] # TEMP: teste pré-merge, revertido antes do PR
+    branches: [main]
   pull_request:
 
 permissions: {}
