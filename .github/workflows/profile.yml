@@ -72,7 +72,7 @@ jobs:
           else
             git checkout --orphan output
           fi
-          git rm -rq --ignore-unmatch .
+          git rm -rqf --ignore-unmatch .
           cp "$CARDS"/* .
           git add -A
           if git diff --cached --quiet; then
