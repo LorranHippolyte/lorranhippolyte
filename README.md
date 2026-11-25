@@ -20,7 +20,7 @@ Em 2017, me formei em Gestão da Tecnologia da Informação e, na sequência, co
 
 Após um período de transição, retornei ao mercado tech em 2019 e atuei intensamente na interseção entre Marketing, Tecnologia e Dados, liderando projetos de crescimento, automação e performance.
 
-Em 2025, voltei ainda mais profundo ao desenvolvimento de software, com foco direto em código, arquitetura e construção de produtos. Hoje atuo como Desenvolvedor Front-end, com visão Full Stack, criando aplicações modernas e escaláveis com React, Next.js e TypeScript.
+Em 2025, voltei ainda mais profundo ao desenvolvimento de software, com foco direto em código, arquitetura e construção de produtos. Hoje atuo como Desenvolvedor Front-end, com visão Full Stack, criando aplicações modernas e escaláveis com React 19, Next.js 16 e TypeScript.
 
 Minha mentalidade é de builder: tecnologia só faz sentido quando reduz fricções, organiza a operação e melhora decisões. Por isso, busco transformar complexidade em sistemas simples, inteligentes e escaláveis, conectando estratégia à execução.
 
@@ -56,7 +56,7 @@ Na prática, isso envolve:
 
 ⚙️ **Automação e systems thinking:** integrações, pipelines e arquitetura para eficiência operacional
 
-🖥️ **Front-end moderno e arquitetural:** interfaces robustas e escaláveis com React, Next.js (App Router) e TypeScript
+🖥️ **Front-end moderno e arquitetural:** interfaces robustas e escaláveis com React 19, Next.js 16 (App Router), TypeScript e Tailwind CSS v4
 
 Meu objetivo é construir produtos e sistemas que funcionam no mundo real, combinando código, dados e inteligência para gerar clareza, controle e crescimento sustentável.
 
@@ -94,7 +94,7 @@ Aplicação web para organização financeira pessoal e familiar, com ênfase em
 
 Plataforma modular para organizar operações, processos, automações e dados. Forte em systems thinking, automação e arquitetura escalável.
 
-**Stack:** Next.js, React, TypeScript, Node.js, integrações e automações
+**Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Prisma
 
 **Repositório:** <a href="https://github.com/LorranHippolyte/genesis-os">github.com/LorranHippolyte/genesis-os</a>
 
@@ -110,44 +110,48 @@ Landing page com foco em performance, clareza de proposta de valor e conversão,
 
 <h2> 🛠 &nbsp;Stack Tecnológica</h2>
 
-Stack que utilizo na prática, alinhada aos projetos deste GitHub.
+Padrão atual de aplicação, SaaS e loja. O Postgres roda na VPS; o Neon fica só para teste rápido. Alguns projetos anteriores ainda usam Drizzle ou Supabase.
 
 <h3>💻 &nbsp;Front-end</h3>
 
-![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript&logoColor=2D79C7)
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
-![Tailwind](https://img.shields.io/badge/-Tailwind-333333?style=flat&logo=tailwind-css)
+![React 19](https://img.shields.io/badge/-React%2019-333333?style=flat&logo=react)
+![Next.js 16](https://img.shields.io/badge/-Next.js%2016-333333?style=flat&logo=nextdotjs)
+![Tailwind v4](https://img.shields.io/badge/-Tailwind%20v4-333333?style=flat&logo=tailwindcss)
+![shadcn/ui](https://img.shields.io/badge/-shadcn%2Fui-333333?style=flat&logo=shadcnui)
 
-<h3>⚙️ &nbsp;Back-end & Infra</h3>
+<h3>⚙️ &nbsp;Back-end e dados</h3>
 
-![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+![Hono](https://img.shields.io/badge/-Hono-333333?style=flat&logo=hono)
+![Bun](https://img.shields.io/badge/-Bun-333333?style=flat&logo=bun)
+![tRPC 11](https://img.shields.io/badge/-tRPC%2011-333333?style=flat&logo=trpc)
+![Prisma 7](https://img.shields.io/badge/-Prisma%207-333333?style=flat&logo=prisma)
+![Better Auth](https://img.shields.io/badge/-Better%20Auth-333333?style=flat&logo=betterauth)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
+
+<h3>☁️ &nbsp;Infra</h3>
+
+![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-333333?style=flat&logo=cloudflare)
 ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+![Dokploy](https://img.shields.io/badge/-Dokploy-333333?style=flat)
+![Turborepo](https://img.shields.io/badge/-Turborepo-333333?style=flat&logo=turborepo)
+![pnpm](https://img.shields.io/badge/-pnpm-333333?style=flat&logo=pnpm)
+![Biome](https://img.shields.io/badge/-Biome-333333?style=flat&logo=biome)
 
-<h3>☁️ &nbsp;Cloud & Serviços</h3>
+<h3>🛒 &nbsp;E-commerce</h3>
 
-![Vercel](https://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-333333?style=flat&logo=cloudflare)
-![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase)
-![Neon](https://img.shields.io/badge/-Neon-333333?style=flat&logo=postgresql&logoColor=00E699)
-![Convex](https://img.shields.io/badge/-Convex-333333?style=flat&logo=databricks&logoColor=FF6F61)
-![Clerk](https://img.shields.io/badge/-Clerk-333333?style=flat&logo=clerk)
+![Shopify](https://img.shields.io/badge/-Shopify-333333?style=flat&logo=shopify)
 
-<h3>🤖 &nbsp;Produto, IA & Automação</h3>
+Liquid, Online Store 2.0 e Bling ERP.
 
-Arquitetura de software orientada a produto, automação de fluxos e sistemas, e IA aplicada para apoio à decisão, eficiência operacional e produtos inteligentes.
+<h3>🤖 &nbsp;IA</h3>
+
+Vercel AI SDK e Claude API, aplicados em produto, automação e apoio à decisão.
 
 <h3>🔧 &nbsp;Ferramentas</h3>
 
-![VS Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
 ![Cursor](https://img.shields.io/badge/-Cursor-333333?style=flat&logo=cursor)
-![GitHub Copilot](https://img.shields.io/badge/-GitHub%20Copilot-333333?style=flat&logo=github)
 ![Claude](https://img.shields.io/badge/-Claude-333333?style=flat&logo=anthropic)
-![Replit](https://img.shields.io/badge/-Replit-333333?style=flat&logo=replit)
 
 <h2>🚀 &nbsp;Minhas Estatísticas no GitHub</h2>
 
